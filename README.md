@@ -9,6 +9,8 @@ Bit vector set similarity evaluation using the maximum spanning tree is describe
 
 Same algorithm applied to the QMNIST dataset [is here](https://github.com/Petr-Kovalev/punched-cards-qmnist)
 
+Same algorithm applied to the Oracle-MNIST dataset [is here](https://github.com/Petr-Kovalev/punched-cards-oracle-mnist)
+
 ### Program output:
 ```
 Punched card bit length: 8
