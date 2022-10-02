@@ -22,7 +22,7 @@ namespace PunchedCards.Helpers
 
         internal static IEnumerable<IBitVector> GetLabels(IBitVectorFactory bitVectorFactory)
         {
-            return Enumerable.Range(0, LabelCount).Select(labelIndex => GetLabelBitVector((byte)labelIndex, bitVectorFactory));
+            return Enumerable.Range(0, LabelCount).Select(labelIndex => GetLabelBitVector((byte) labelIndex, bitVectorFactory));
         }
 
         private static IEnumerable<Tuple<IBitVector, IBitVector>> ReaData(Func<IEnumerable<Image>> readImagesFunction, IBitVectorFactory bitVectorFactory)
