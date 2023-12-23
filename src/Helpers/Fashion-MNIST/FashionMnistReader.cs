@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-
-namespace PunchedCards.Helpers.FashionMNIST
+﻿namespace PunchedCards.Helpers.FashionMNIST
 {
     // https://github.com/zalandoresearch/fashion-mnist
     internal static class FashionMnistReader
